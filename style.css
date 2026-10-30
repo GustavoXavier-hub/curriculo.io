@@ -24,7 +24,7 @@ a{color:inherit}
 .bar{position:sticky;top:0;z-index:5;background:rgba(13,18,25,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .bar .wrap{display:flex;align-items:center;justify-content:flex-end;height:56px;gap:16px}
 .bar nav{display:flex;gap:4px;overflow-x:auto}
-.bar nav a{font-family:var(--mono);font-size:13px;text-decoration:none;color:var(--muted);padding:6px 10px;border-radius:6px;white-space:nowrap}
+.bar nav a{font-family:var(--mono);font-size:13px;text-decoration:none;color:var(--ink);padding:6px 10px;border-radius:6px;white-space:nowrap}
 .bar nav a:hover{background:var(--surface);color:var(--ink)}
 
 /* hero */
