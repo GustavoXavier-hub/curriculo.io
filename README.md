@@ -2,7 +2,7 @@
 
 Site de currículo de Gustavo Xavier, desenvolvedor back-end Java.
 
-O visual imita uma API: o cabeçalho mostra `/api/gustavo`, as seções aparecem como endpoints (`/sobre`, `/experiencia`, `/projetos`, `/stack`, `/formacao`, `/contato`) e o topo exibe uma "resposta" `200 OK` em JSON. Não há backend; é tudo estático.
+O visual imita uma API: as seções aparecem como endpoints (`/sobre`, `/experiencia`, `/projetos`, `/stack`, `/formacao`, `/contato`) e o topo exibe uma "resposta" `200 OK` em JSON. Não há backend; é tudo estático.
 
 ## Estrutura
 

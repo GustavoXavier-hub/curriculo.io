@@ -20,11 +20,9 @@ a{color:inherit}
 :focus-visible{outline:2px solid var(--cobalt);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
 
-/* barra superior, como a base URL de uma API */
+/* barra superior: menu com as seções como endpoints */
 .bar{position:sticky;top:0;z-index:5;background:rgba(13,18,25,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:16px}
-.base{font-family:var(--mono);font-size:14px;color:var(--muted);white-space:nowrap}
-.base b{color:var(--ink);font-weight:600}
+.bar .wrap{display:flex;align-items:center;justify-content:flex-end;height:56px;gap:16px}
 .bar nav{display:flex;gap:4px;overflow-x:auto}
 .bar nav a{font-family:var(--mono);font-size:13px;text-decoration:none;color:var(--muted);padding:6px 10px;border-radius:6px;white-space:nowrap}
 .bar nav a:hover{background:var(--surface);color:var(--ink)}
@@ -129,7 +127,7 @@ footer p{font-family:var(--mono);font-size:13px;color:var(--muted)}
   .projects{grid-template-columns:1fr}
   .stack{grid-template-columns:repeat(2,1fr);gap:28px}
   .response pre{min-height:0;font-size:13px}
-  .bar nav{display:none}
+  .bar{display:none}
 }
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
