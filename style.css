@@ -3,6 +3,7 @@
   --surface:#141B26;
   --ink:#E6EBF2;
   --muted:#8B96A8;
+  --text:#C3CBD8;
   --line:#242E3D;
   --cobalt:#7393FF;
   --cobalt-soft:rgba(115,147,255,.14);
@@ -32,7 +33,7 @@ a{color:inherit}
 .hello{font-family:var(--mono);font-size:14px;color:var(--cobalt);margin-bottom:18px}
 h1{font-family:var(--display);font-weight:900;font-size:clamp(52px,8vw,92px);line-height:.92;letter-spacing:-.035em}
 h1 span{display:block;color:var(--cobalt)}
-.lede{margin-top:26px;font-size:20px;color:var(--muted);max-width:30ch}
+.lede{margin-top:26px;font-size:20px;color:var(--text);max-width:30ch}
 .lede strong{color:var(--ink);font-weight:600}
 .cta{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}
 .btn{font-family:var(--mono);font-size:14px;font-weight:500;text-decoration:none;padding:12px 18px;border-radius:8px;border:1px solid var(--ink);display:inline-flex;align-items:center;gap:8px}
@@ -49,7 +50,7 @@ section.res{padding:64px 0;border-top:1px solid var(--line)}
 
 .about{display:grid;grid-template-columns:1.4fr 1fr;gap:48px}
 .about p{font-size:19px;max-width:56ch}
-.about p + p{margin-top:16px;color:var(--muted);font-size:17px}
+.about p + p{margin-top:16px;color:var(--text);font-size:17px}
 .facts{list-style:none;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .facts li{display:flex;justify-content:space-between;gap:16px;padding:14px 18px;font-size:15px}
 .facts li + li{border-top:1px solid var(--line)}
@@ -65,7 +66,7 @@ section.res{padding:64px 0;border-top:1px solid var(--line)}
 .state{font-family:var(--mono);font-size:12px;color:var(--amber);display:inline-flex;align-items:center;gap:6px}
 .state::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--amber)}
 .proj h3{font-family:var(--display);font-weight:700;font-size:28px;letter-spacing:-.02em;line-height:1.1}
-.proj p{margin-top:10px;color:var(--muted)}
+.proj p{margin-top:10px;color:var(--text)}
 .proj ul.points{margin-top:16px;padding-left:18px;color:var(--ink);font-size:15px}
 .proj ul.points li + li{margin-top:6px}
 .feature .cols{display:grid;grid-template-columns:1fr 1fr;gap:32px}
@@ -91,9 +92,9 @@ section.res{padding:64px 0;border-top:1px solid var(--line)}
 .timeline li:last-child{padding-bottom:0}
 .timeline li::before{content:"";position:absolute;left:-8px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--ink)}
 .timeline li.now::before{background:var(--cobalt);border-color:var(--cobalt)}
-.when{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.timeline .when{font-family:var(--mono);font-size:13px;color:var(--muted)}
 .timeline h3{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em;margin-top:2px}
-.timeline p{color:var(--muted)}
+.timeline p{color:var(--text)}
 .timeline .org{color:var(--ink);font-weight:500}
 .timeline .desc{margin-top:8px;max-width:64ch}
 .jobs .tags{padding-top:12px}
