@@ -92,7 +92,7 @@ section.res{padding:64px 0;border-top:1px solid var(--line)}
 .timeline li:last-child{padding-bottom:0}
 .timeline li::before{content:"";position:absolute;left:-8px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--ink)}
 .timeline li.now::before{background:var(--cobalt);border-color:var(--cobalt)}
-.timeline .when{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.timeline .when{font-family:var(--mono);font-size:13px;color:var(--text)}
 .timeline h3{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:-.01em;margin-top:2px}
 .timeline p{color:var(--text)}
 .timeline .org{color:var(--ink);font-weight:500}
@@ -108,7 +108,7 @@ section.res{padding:64px 0;border-top:1px solid var(--line)}
 .ch a:hover, .ch button:hover{background:var(--cobalt);color:var(--bg)}
 
 footer{padding:40px 0 56px;border-top:1px solid var(--line);margin-top:24px}
-footer p{font-family:var(--mono);font-size:13px;color:var(--muted)}
+footer p{font-family:var(--mono);font-size:13px;color:var(--text)}
 
 @media (max-width:860px){
   .hero{padding:56px 0 48px}
